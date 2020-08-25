@@ -1,7 +1,7 @@
-require("dotenv").config();
-const Discord = require("discord.js");
+
+
 const { Client } = require("discord.js");
-const client = new Discord.Client();
+const client = new Client();
 const prefix = "*";
 
 client.on("ready", () => {
